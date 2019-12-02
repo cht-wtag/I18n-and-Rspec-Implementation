@@ -1,0 +1,41 @@
+---
+de:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            age:
+              blank: Darf nicht leer sein
+            email:
+              blank: Darf nicht leer sein
+              taken: E-Mail wurde bereits vergeben
+            name:
+              blank: Darf nicht leer sein
+  all_user: Alle Benutzer
+  greetings: Hallo
+  home: Zuhause
+  new_user: Neuer Benutzer
+  users:
+    _form:
+      f_age: 'Alter: '
+      f_email: 'Email: '
+      f_name: 'Name: '
+      f_submit: Benutzer Anlegen
+    edit:
+      edit_text: Möchten Sie Ihre Daten bearbeiten?
+    index:
+      add_user: Füge dich selbst hinzu!
+      age: Alter
+      confirm_message: Möchten Sie löschen %{name}？
+      delete: Löschen
+      email: Email
+      id: Ich würde
+      list_text: Hier ist die Liste aller Benutzer
+      name: Name
+      show: Show
+      update: Aktualisieren
+    new:
+      user_text: Können Sie uns mit Ihren Daten helfen?
+    show:
+      data_test: Hier sind Ihre gewünschten Daten

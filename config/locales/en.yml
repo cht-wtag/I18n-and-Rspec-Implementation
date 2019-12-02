@@ -1,0 +1,41 @@
+---
+en:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            age:
+              blank: can not be blank
+            email:
+              blank: can not be blank
+              taken: this email has already been taken
+            name:
+              blank: can not be blank
+  all_user: All User
+  greetings: Hello
+  home: Home
+  new_user: New User
+  users:
+    _form:
+      f_age: 'Age:'
+      f_email: 'Email:'
+      f_name: 'Name:'
+      f_submit: Create User
+    edit:
+      edit_text: Do youn want to edit your data?
+    index:
+      add_user: Add Yourself!
+      age: Age
+      confirm_message: Do you want to delete %{name}？
+      delete: Delete
+      email: Email
+      id: ID
+      list_text: Here is the list of all the users
+      name: Name
+      show: Show
+      update: Update
+    new:
+      user_text: Can you help us with your data?
+    show:
+      data_test: Here Is Your Requested Data

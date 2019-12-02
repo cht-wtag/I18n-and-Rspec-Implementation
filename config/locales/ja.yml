@@ -1,0 +1,41 @@
+---
+ja:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            age:
+              blank: 空白にすることはできません
+            email:
+              blank: 空白にすることはできません
+              taken: このメールは既に使用されています
+            name:
+              blank: 空白にすることはできません
+  all_user: すべて ユーザー
+  greetings: こんにちは
+  home: ホーム
+  new_user: 新しい ユーザー
+  users:
+    _form:
+      f_age: 年齢：
+      f_email: Eメール：
+      f_name: 名：
+      f_submit: ユーザーを作成
+    edit:
+      edit_text: このデータを編集しますか？
+    index:
+      add_user: 自分を追加してください！
+      age: 年齢
+      confirm_message: 削除しますか %{name}？
+      delete: 削除する
+      email: Eメール
+      id: 索引
+      list_text: これがすべてのユーザーのリストです
+      name: 名
+      show: 見せる
+      update: 修正
+    new:
+      user_text: データを手伝ってくれませんか？
+    show:
+      data_test: こちらがリクエストされたデータです

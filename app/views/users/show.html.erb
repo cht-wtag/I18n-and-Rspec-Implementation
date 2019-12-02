@@ -1,0 +1,19 @@
+<div style=" padding-top: 65px">
+  <h1><%= t 'users.show.data_test' %></h1>
+</div>
+<p>
+<table style="margin-left: 500px; width:50%">
+  <tr>
+    <th><%= t 'users.index.id' %></th>
+    <th><%= t 'users.index.name'%> </th>
+    <th><%= t 'users.index.age' %></th>
+    <th><%= t 'users.index.email'%></th>
+  </tr>
+  <tr>
+    <td><%= @user.id %></td>
+    <td><%= @user.name %></td>
+    <td> <%= @user.age %></td>
+    <td> <%= @user.email %></td>
+  </tr>
+</table>
+</p>

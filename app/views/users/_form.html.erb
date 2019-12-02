@@ -1,0 +1,12 @@
+<%= simple_form_for @user do |f| %>
+<% var_form_name= t 'users._form.f_name' %>
+  <% var_form_age= t 'users._form.f_age' %>
+  <% var_form_email= t 'users._form.f_email' %>
+  <% var_form_submit= t  'users._form.f_submit' %>
+ <strong><%= f.input :name, label: var_form_name, placeholder: 'Tamal' %>  <br></strong>
+  <%= f.input :age,label: var_form_age, placeholder: 'Integer only.' %> <br>
+  <%= f.input :email,label: var_form_email, placeholder: 'user@domain.com' %> <br>
+  <%#= f.input :remember_me, inline_label: 'Yes, remember me' %>
+
+  <%= f.button :submit ,var_form_submit,class:"button-add" %>
+<% end %>

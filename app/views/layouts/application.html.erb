@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task1app</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+  <%# if user_signed_in? %>
+  <%#=link_to "sign out", destroy_user_session_path, method: :delete %>
+  <%#end %>
+     <header>
+        <nav>
+
+          <ul>
+            <li> <%=link_to t('home'), root_path %> </li>
+            <li><%=link_to t('new_user'), new_user_path %> </li>
+            <li><%=link_to t('all_user'), users_path %> </li>
+            <li><%=link_to 'English', locale: :en %></li>
+            <li><%=link_to '日本人', locale: :ja %></li>
+            <li><%=link_to 'Deutsch', locale: :de %></li>
+          </ul>
+       </nav>
+      </header>
+    <%= yield %>
+  </body>
+</html>
